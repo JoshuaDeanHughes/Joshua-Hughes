@@ -109,10 +109,12 @@ a:hover {
 }
 
 /*transititions*/
+
+/*M8LO10 Demonstrate a CSS animation or transition (CSS, transition: makes the iframe larger and easier to read without having to leave the site)*/
 iframe {
 	transition: height 3s;
 }
 
-iframe:focus {
+iframe:hover {
 	height: 600px;
 }
