@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, reset the style of major used elements)*/
+
+article,footer,header,main,nav {
+	display:block;
+}
+
+article,body,h1,header,html,img,li,nav,ol,ul,p {
+	background: transparent;
+	font-size:100%;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+
+body {
+	line-height:1;
+}
