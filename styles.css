@@ -109,6 +109,10 @@ a:hover {
 }
 
 /*transititions*/
-iframe:hover {
-	height: 800px;
+iframe {
+	transition: height 3s;
+}
+
+iframe:focus {
+	height: 600px;
 }
