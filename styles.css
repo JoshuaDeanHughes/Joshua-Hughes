@@ -7,7 +7,6 @@ html {
 	background-attachment: fixed;
 	background-image: url("returntodreamland.png");
 }
-
 body { 	
 	background-color: rgb(255, 255, 255);
 	background-color: hsl(0, 0%, 100%);
@@ -16,9 +15,11 @@ body {
 	max-width:800px;
 	min-width:400px;
 }
+
 header > img {
 	float: right;
 }
+
 /* Navigation Styles */
 nav {
 	background-image: linear-gradient(blue, white);
@@ -105,4 +106,9 @@ a:link, a:visited {
 a:hover {
 	color: red;
 	text-decoration:none;
+}
+
+/*transititions*/
+iframe:hover {
+	height: 800px;
 }
